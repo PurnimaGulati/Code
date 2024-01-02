@@ -10,10 +10,6 @@ struct myArray
 
 void createArray(struct myArray *a, int tSize, int uSize)
 {
-    // (*a).total_size = tSize;
-    // (*a).used_size = uSize;
-    // (*a).ptr = (int *)malloc(tSize * sizeof(int));
-
     a->total_size = tSize;
     a->used_size = uSize;
     a->ptr = (int *)malloc(tSize * sizeof(int));
